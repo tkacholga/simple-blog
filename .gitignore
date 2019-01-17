@@ -1,5 +1,6 @@
 /config/keys_dev.js
-.env.development
+.env
+.contentful.json
 
 # Logs
 logs
