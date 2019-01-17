@@ -1,7 +1,4 @@
-let env = process.env.NODE_ENV || 'development'
-
-// This adds dotenv (for storing environment variables) to gatsby
-require('dotenv').config({ path: `./.env.${env}` })
+const keys = require('./config/keys')
 
 module.exports = {
   siteMetadata: {
@@ -25,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `${process.env.GATSBY_CONTENTFUL_SPACE_ID}`,
-        accessToken: `${process.env.GATSBY_CONTENTFUL_ACCESS_TOKEN}`,
+        spaceId: keys.spaceId,
+        accessToken: keys.accessToken,
       },
     },
     {
