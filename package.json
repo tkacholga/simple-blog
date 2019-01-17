@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Olga Tkach",
+  "dependencies": {
+    "gatsby": "^2.0.91",
+    "gatsby-image": "^2.0.26",
+    "gatsby-plugin-manifest": "^2.0.13",
+    "gatsby-plugin-offline": "^2.0.21",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sharp": "^2.0.17",
+    "gatsby-source-contentful": "^2.0.26",
+    "gatsby-source-filesystem": "^2.0.16",
+    "gatsby-transformer-remark": "^2.2.0",
+    "gatsby-transformer-sharp": "^2.1.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  }
+}
