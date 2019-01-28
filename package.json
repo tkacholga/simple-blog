@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-simple-blog",
+  "description": "Gatsby simple blog with Contentful",
   "version": "1.0.0",
   "author": "Olga Tkach",
   "dependencies": {

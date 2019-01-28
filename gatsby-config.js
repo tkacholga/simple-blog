@@ -3,8 +3,8 @@ require('dotenv').config({ path: `./.env.${env}` })
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Simple blog using Gatsby and Contentful`,
+    title: `Simple Blog`,
+    description: `Blog using Gatsby and Contentful`,
     author: `Olga Tkach`,
   },
   plugins: [
